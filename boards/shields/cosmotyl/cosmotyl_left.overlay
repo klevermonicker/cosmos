@@ -6,4 +6,8 @@
         key-position = <0>;
         jump-to-bootloader;
     };
+
+    chosen {
+        zmk,rgb-matrix = &led_strip;
+    };
 };
