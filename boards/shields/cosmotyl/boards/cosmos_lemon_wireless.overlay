@@ -42,7 +42,7 @@
 
 / {
     chosen {
-        zmk,rgb-matrix = &led_strip;
+        zmk,underglow = &led_strip;
     };
 
     vik_conn: vik_connector {

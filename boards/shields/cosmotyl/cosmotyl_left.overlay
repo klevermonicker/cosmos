@@ -8,6 +8,6 @@
     };
 
     chosen {
-        zmk,rgb-matrix = &led_strip;
+        zmk,underglow = &led_strip;
     };
 };
